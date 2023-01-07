@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* this is header style */
+.header-conteiner{
+   background-image: url(images/banner/banner3.png);
+   width: 1600px;
+   height: 810px;
+   text-align: right;
+}
+.header-title{
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    padding-left: 845px;
+    padding-top: 216px;
+    padding-right: 230px;
+    margin-bottom: 24px;
+}
+.header-description{ 
+    position: absolute;
+    height: 78px;
+    width: 494px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 876px;
+    padding-top: 450px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.primary-btn{
+    width: 160px;
+    height: 54px;
+    margin-left: 1210px;
+    margin-top: 560px;
+    margin-right: 250px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.primary-btn:hover{
+    background-color:lightseagreen;
+    color: black;
+}
+/* self belife blog */
+.self-belife{
+    width: 1200px;
+    height: 600px;
+    background-image: url(images/self\ belive2.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position:top right;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.self-belife-title{
+     color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 50px; 
+    padding-right: 600px;
+    padding-top: 100px;
+    text-align:left;
+}
+.self-belife-description{  
+    font-size: 15px;
+    font-weight: 500;
+    color: #444343;
+    padding-left: 50px;
+    padding-right: 600px;
+    margin-top: 10px;
+}
+.benefits-lists{
+    font-size: 15px;
+    font-weight: 400;
+    color: #444343;
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.list-item{
+    padding-bottom: 10px;
+}
+/* failing list section */
+.talking-about-failure{
+    background-image: url(images/person.png);
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 800px;
+    text-align: left;
+     margin-top: 130px;  
+     margin-left: 200px;  
+    background-color: white;
+}
+.failure-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 662px;
+    padding-right: 455px;
+    padding-top: 270px;
+}
+.failing-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: #444343;
+    padding-left: 662px;
+    padding-right: 385px ;
+    margin-top: 15px;
+}
+.fail-lists-unit{
+    font-size: 15px;
+    font-weight: 400;
+    color: #444343;
+    padding-left: 692px;
+    padding-right: 385px ;
+    margin-top: 15px;
+    list-style: none;
+}
+/* planning section */
+.plan-head{
+    width: 1600px;
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.plans{
+    width: 1200px;
+    height: 250px; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px;
+    text-align: center;
+}
+.name-of-plans{
+    font-weight: 700;
+    font-size: 25px;
+}
+/* image blend section */
+.img-blend{
+    width: 800px;
+    height: 190px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-image: url(images/watch.png), url(images/gradient1.png);
+    background-repeat: no-repeat , no-repeat;
+    background-size: cover, cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .30);
+    z-index: 1;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.blend-section-title{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+.primary-btn1{
+    width: 140px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 30px;
+}
+.primary-btn1:hover{
+    background-color: rgb(159, 212, 89);
+    color: white;
+}
+/* footer  */
+.footer-footer{
+    width: 1600px;
+    height: 550px;
+    background-color:black;
+    margin-top: 100px;
+    display: flex;  
+}
+.future-side{
+    width: 400px;
+    height: 560px;
+    color: white;
+    margin-left: 390px;
+}
+.future-title{
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 130px;
+}
+.future-side-icons{
+    margin-left: 5px;
+}
+.email-div{
+    width: 400px;
+    height: 160px;
+    margin-top: 145px;
+    margin-left: 150px;
+}
+.subscribe-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.email{
+    background-color: black;
+    border: 2px solid white;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.subscribe-btn{
+    width: 140px;
+    height: 44px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(57, 57, 197);
+    color: white;
+    margin-top: 10px;
+    
+}
+.subscribe-btn:hover{
+    background-color: lightcyan;
+    color: black;
+}
+
+
